@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #123359;
+}
+
+.container {
+    color: #fff;
+    background-color: #580ed8;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+}
+
+.content-alarm {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content-alarm.disable {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.img {
+    width: 90px;
+    height: 160px;
+}
+
+.select-time,
+select {
+    height: 50px;
+}
+
+.select-time>select {
+    text-align: center;
+    font-size: 18px;
+    width: 100px;
+    background-color: rgb(224, 226, 228);
+    border-radius: 2px;
+}
+
+.button {
+    color: #fff;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(17, 143, 247, 0.959);
+    margin-bottom: 8px;
+}
