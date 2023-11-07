@@ -3,15 +3,14 @@ function main() {
   let currentTime = document.querySelector(".h1");
   const selectTime = document.querySelectorAll("select");
   const contentAlarm = document.querySelector(".content-alarm");
-
   let alarmSet = false;
   let alarmTime;
   const rigtoneSrc = new URL(
-    "./files/ringtone.mp3",
+    "./media/ringtone.mp3",
     import.meta.url
   ).toString();
   let rigtone = new Audio(rigtoneSrc);
-  for (let hour = 12; hour > 0; hour--) {
+  for (let hour = 23; hour >= 0; hour--) {
     hour = hour < 10 ? "0" + hour : hour;
     let option = `<option value="${hour}">${hour}</option>`;
     selectTime[0].firstElementChild.insertAdjacentHTML("afterend", option);
@@ -35,6 +34,7 @@ function main() {
       s = date.getSeconds();
 
     amPm = "AM";
+
     if (h >= 12) {
       h = h - 12;
       amPm = "PM";

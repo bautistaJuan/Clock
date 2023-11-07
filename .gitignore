@@ -1,3 +1,5 @@
+yarn.lock
 .parcel-cache
 dist
 node_modules
+
