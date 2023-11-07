@@ -4,11 +4,11 @@ Hola !! Este es un alarma web, donde la idea es demostrar mis conocimientos en H
 
 ### Screenshot desktop
 
-![Una captura de mi proyecto](./src/media/Captura-desktop.png)
+![Una captura de mi proyecto](./media/Captura-desktop.png)
 
 ### Screenshot mobile
 
-![Una captura de mi proyecto](./src/media/cap-mobile.png)
+![Una captura de mi proyecto](./media/cap-mobile.png)
 
 ### Built with
 
